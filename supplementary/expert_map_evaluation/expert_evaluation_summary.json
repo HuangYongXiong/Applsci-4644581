@@ -1,0 +1,48 @@
+{
+ "n_tasks": 12,
+ "n_raters": 5,
+ "n_pairs": 60,
+ "scale": "0-5, 0.5 steps",
+ "dimensions": {
+  "accuracy": {
+   "generated_mean": 4.37,
+   "generated_sd": 0.5,
+   "manual_mean": 4.43,
+   "manual_sd": 0.48,
+   "wilcoxon_W": 397.5,
+   "p_value": 0.34271078821029854
+  },
+  "completeness": {
+   "generated_mean": 3.96,
+   "generated_sd": 0.55,
+   "manual_mean": 4.13,
+   "manual_sd": 0.48,
+   "wilcoxon_W": 319.0,
+   "p_value": 0.05407887485668609
+  },
+  "symbology": {
+   "generated_mean": 3.53,
+   "generated_sd": 0.62,
+   "manual_mean": 4.33,
+   "manual_sd": 0.57,
+   "wilcoxon_W": 36.5,
+   "p_value": 1.0586307434354545e-08
+  },
+  "legend": {
+   "generated_mean": 3.83,
+   "generated_sd": 0.49,
+   "manual_mean": 4.29,
+   "manual_sd": 0.53,
+   "wilcoxon_W": 102.5,
+   "p_value": 5.000232847766996e-06
+  },
+  "usability": {
+   "generated_mean": 4.14,
+   "generated_sd": 0.53,
+   "manual_mean": 4.2,
+   "manual_sd": 0.41,
+   "wilcoxon_W": 363.5,
+   "p_value": 0.5134202964163288
+  }
+ }
+}

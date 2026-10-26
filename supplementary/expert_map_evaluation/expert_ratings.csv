@@ -1,0 +1,121 @@
+task,event,rater,rater_role,condition,accuracy,completeness,symbology,legend,usability
+LUD-1,Luding 2022,R1,cartography/GIS,generated,5.0,3.5,3.5,3.5,4.5
+LUD-1,Luding 2022,R1,cartography/GIS,manual,4.0,4.0,4.0,4.0,4.5
+LUD-1,Luding 2022,R2,cartography/GIS,generated,5.0,3.5,4.5,3.5,4.0
+LUD-1,Luding 2022,R2,cartography/GIS,manual,4.5,4.0,5.0,3.5,4.0
+LUD-1,Luding 2022,R3,cartography/GIS,generated,4.5,4.5,3.0,3.5,4.0
+LUD-1,Luding 2022,R3,cartography/GIS,manual,4.5,3.5,4.0,4.5,4.5
+LUD-1,Luding 2022,R4,emergency command,generated,5.0,4.0,3.0,4.0,4.0
+LUD-1,Luding 2022,R4,emergency command,manual,4.5,4.5,4.5,4.5,4.0
+LUD-1,Luding 2022,R5,emergency command,generated,4.0,5.0,4.0,4.0,4.0
+LUD-1,Luding 2022,R5,emergency command,manual,4.0,5.0,4.0,4.0,4.5
+LUD-2,Luding 2022,R1,cartography/GIS,generated,5.0,3.5,3.0,4.5,4.5
+LUD-2,Luding 2022,R1,cartography/GIS,manual,4.5,4.5,4.5,4.0,4.5
+LUD-2,Luding 2022,R2,cartography/GIS,generated,4.5,4.0,4.0,3.0,4.5
+LUD-2,Luding 2022,R2,cartography/GIS,manual,5.0,4.5,4.5,4.5,5.0
+LUD-2,Luding 2022,R3,cartography/GIS,generated,4.0,3.5,3.0,4.0,4.5
+LUD-2,Luding 2022,R3,cartography/GIS,manual,4.0,4.0,3.5,4.5,4.0
+LUD-2,Luding 2022,R4,emergency command,generated,4.0,4.0,4.0,3.5,4.5
+LUD-2,Luding 2022,R4,emergency command,manual,4.5,5.0,5.0,4.5,4.0
+LUD-2,Luding 2022,R5,emergency command,generated,4.0,4.0,3.0,4.5,5.0
+LUD-2,Luding 2022,R5,emergency command,manual,3.5,5.0,4.0,4.0,4.0
+LUD-3,Luding 2022,R1,cartography/GIS,generated,4.0,3.5,2.0,3.5,3.0
+LUD-3,Luding 2022,R1,cartography/GIS,manual,5.0,4.0,3.5,3.5,3.5
+LUD-3,Luding 2022,R2,cartography/GIS,generated,5.0,4.0,3.0,3.5,4.0
+LUD-3,Luding 2022,R2,cartography/GIS,manual,4.0,4.0,5.0,3.5,4.0
+LUD-3,Luding 2022,R3,cartography/GIS,generated,4.5,4.5,2.5,4.0,4.0
+LUD-3,Luding 2022,R3,cartography/GIS,manual,4.0,4.0,3.5,4.5,3.5
+LUD-3,Luding 2022,R4,emergency command,generated,3.5,3.5,4.0,4.0,3.5
+LUD-3,Luding 2022,R4,emergency command,manual,4.0,3.5,4.5,3.5,4.0
+LUD-3,Luding 2022,R5,emergency command,generated,5.0,3.5,4.0,4.5,4.0
+LUD-3,Luding 2022,R5,emergency command,manual,4.0,4.0,4.5,3.5,4.5
+LUD-4,Luding 2022,R1,cartography/GIS,generated,4.5,3.5,4.0,4.0,3.0
+LUD-4,Luding 2022,R1,cartography/GIS,manual,4.5,3.5,4.0,4.0,3.5
+LUD-4,Luding 2022,R2,cartography/GIS,generated,4.5,3.5,3.5,4.5,4.5
+LUD-4,Luding 2022,R2,cartography/GIS,manual,4.0,3.5,3.5,4.0,4.0
+LUD-4,Luding 2022,R3,cartography/GIS,generated,4.0,3.5,3.5,3.5,4.0
+LUD-4,Luding 2022,R3,cartography/GIS,manual,3.5,3.5,3.5,4.0,3.5
+LUD-4,Luding 2022,R4,emergency command,generated,4.0,4.5,3.5,3.0,4.0
+LUD-4,Luding 2022,R4,emergency command,manual,4.5,4.0,5.0,4.5,4.0
+LUD-4,Luding 2022,R5,emergency command,generated,4.5,5.0,4.0,3.5,3.5
+LUD-4,Luding 2022,R5,emergency command,manual,4.5,4.0,3.0,4.5,4.5
+LUD-5,Luding 2022,R1,cartography/GIS,generated,5.0,4.5,4.0,4.0,4.0
+LUD-5,Luding 2022,R1,cartography/GIS,manual,4.5,3.5,4.5,3.5,3.5
+LUD-5,Luding 2022,R2,cartography/GIS,generated,4.0,3.5,3.0,3.5,3.5
+LUD-5,Luding 2022,R2,cartography/GIS,manual,4.5,4.5,4.0,3.5,4.0
+LUD-5,Luding 2022,R3,cartography/GIS,generated,4.5,3.5,4.5,4.5,3.0
+LUD-5,Luding 2022,R3,cartography/GIS,manual,4.0,3.5,4.5,5.0,4.5
+LUD-5,Luding 2022,R4,emergency command,generated,5.0,4.5,3.5,3.5,4.0
+LUD-5,Luding 2022,R4,emergency command,manual,5.0,4.5,5.0,4.5,4.0
+LUD-5,Luding 2022,R5,emergency command,generated,4.5,3.5,4.0,3.5,4.0
+LUD-5,Luding 2022,R5,emergency command,manual,4.5,4.5,5.0,5.0,4.0
+LUD-6,Luding 2022,R1,cartography/GIS,generated,5.0,3.5,4.0,3.5,4.5
+LUD-6,Luding 2022,R1,cartography/GIS,manual,4.5,4.0,3.5,5.0,4.5
+LUD-6,Luding 2022,R2,cartography/GIS,generated,4.5,5.0,4.5,3.0,4.0
+LUD-6,Luding 2022,R2,cartography/GIS,manual,4.5,4.0,4.5,5.0,4.0
+LUD-6,Luding 2022,R3,cartography/GIS,generated,5.0,4.5,3.5,4.0,5.0
+LUD-6,Luding 2022,R3,cartography/GIS,manual,4.0,4.0,3.5,4.0,4.5
+LUD-6,Luding 2022,R4,emergency command,generated,4.0,4.0,4.0,4.0,4.0
+LUD-6,Luding 2022,R4,emergency command,manual,5.0,4.0,4.5,5.0,4.5
+LUD-6,Luding 2022,R5,emergency command,generated,5.0,4.5,3.5,4.5,5.0
+LUD-6,Luding 2022,R5,emergency command,manual,5.0,5.0,5.0,5.0,4.5
+LSN-1,Lushan 2022,R1,cartography/GIS,generated,4.0,3.0,3.0,3.5,3.5
+LSN-1,Lushan 2022,R1,cartography/GIS,manual,4.0,3.5,4.5,4.5,4.5
+LSN-1,Lushan 2022,R2,cartography/GIS,generated,4.0,3.5,3.0,4.0,4.0
+LSN-1,Lushan 2022,R2,cartography/GIS,manual,4.5,4.0,4.5,5.0,4.5
+LSN-1,Lushan 2022,R3,cartography/GIS,generated,4.0,3.5,4.0,4.0,3.0
+LSN-1,Lushan 2022,R3,cartography/GIS,manual,4.5,4.5,4.5,4.0,4.5
+LSN-1,Lushan 2022,R4,emergency command,generated,4.5,3.5,4.0,4.0,5.0
+LSN-1,Lushan 2022,R4,emergency command,manual,4.5,4.0,4.0,4.0,3.5
+LSN-1,Lushan 2022,R5,emergency command,generated,4.0,3.5,4.0,4.0,3.5
+LSN-1,Lushan 2022,R5,emergency command,manual,4.0,4.5,5.0,4.0,4.0
+LSN-2,Lushan 2022,R1,cartography/GIS,generated,4.0,3.5,3.0,3.0,4.0
+LSN-2,Lushan 2022,R1,cartography/GIS,manual,5.0,4.5,5.0,4.0,5.0
+LSN-2,Lushan 2022,R2,cartography/GIS,generated,4.5,3.5,3.0,4.0,4.5
+LSN-2,Lushan 2022,R2,cartography/GIS,manual,5.0,5.0,5.0,5.0,5.0
+LSN-2,Lushan 2022,R3,cartography/GIS,generated,4.5,4.5,3.5,3.5,4.0
+LSN-2,Lushan 2022,R3,cartography/GIS,manual,5.0,4.0,4.5,4.5,4.0
+LSN-2,Lushan 2022,R4,emergency command,generated,4.5,4.0,3.0,4.5,4.5
+LSN-2,Lushan 2022,R4,emergency command,manual,4.0,4.5,4.0,5.0,4.5
+LSN-2,Lushan 2022,R5,emergency command,generated,4.5,4.5,4.5,4.0,4.5
+LSN-2,Lushan 2022,R5,emergency command,manual,4.0,4.5,4.5,5.0,4.0
+LSN-3,Lushan 2022,R1,cartography/GIS,generated,3.0,4.0,2.0,3.5,4.5
+LSN-3,Lushan 2022,R1,cartography/GIS,manual,4.0,3.5,3.5,4.5,3.5
+LSN-3,Lushan 2022,R2,cartography/GIS,generated,4.0,4.5,3.5,3.5,4.0
+LSN-3,Lushan 2022,R2,cartography/GIS,manual,5.0,3.5,3.5,4.0,4.5
+LSN-3,Lushan 2022,R3,cartography/GIS,generated,4.0,3.5,2.0,2.5,4.5
+LSN-3,Lushan 2022,R3,cartography/GIS,manual,3.5,3.5,3.5,3.5,3.5
+LSN-3,Lushan 2022,R4,emergency command,generated,4.0,4.0,2.5,4.0,5.0
+LSN-3,Lushan 2022,R4,emergency command,manual,4.5,4.0,4.0,4.0,4.0
+LSN-3,Lushan 2022,R5,emergency command,generated,3.5,4.5,4.0,3.5,4.5
+LSN-3,Lushan 2022,R5,emergency command,manual,3.5,4.5,5.0,3.5,4.0
+LSN-4,Lushan 2022,R1,cartography/GIS,generated,5.0,4.0,3.0,4.5,4.5
+LSN-4,Lushan 2022,R1,cartography/GIS,manual,5.0,4.0,3.5,4.0,4.5
+LSN-4,Lushan 2022,R2,cartography/GIS,generated,4.0,4.5,4.0,4.0,4.5
+LSN-4,Lushan 2022,R2,cartography/GIS,manual,5.0,4.5,5.0,3.5,4.5
+LSN-4,Lushan 2022,R3,cartography/GIS,generated,3.0,4.5,3.0,4.0,4.0
+LSN-4,Lushan 2022,R3,cartography/GIS,manual,4.0,4.0,5.0,4.0,4.5
+LSN-4,Lushan 2022,R4,emergency command,generated,4.5,4.0,3.5,3.5,3.5
+LSN-4,Lushan 2022,R4,emergency command,manual,5.0,4.5,5.0,4.5,4.5
+LSN-4,Lushan 2022,R5,emergency command,generated,4.0,3.5,4.0,4.0,4.5
+LSN-4,Lushan 2022,R5,emergency command,manual,4.5,4.0,5.0,4.5,4.5
+LSN-5,Lushan 2022,R1,cartography/GIS,generated,4.0,4.0,4.5,3.5,5.0
+LSN-5,Lushan 2022,R1,cartography/GIS,manual,5.0,4.0,4.5,4.5,4.0
+LSN-5,Lushan 2022,R2,cartography/GIS,generated,5.0,5.0,4.0,4.0,4.5
+LSN-5,Lushan 2022,R2,cartography/GIS,manual,4.5,4.0,4.5,4.0,4.5
+LSN-5,Lushan 2022,R3,cartography/GIS,generated,4.5,3.5,3.0,3.5,3.5
+LSN-5,Lushan 2022,R3,cartography/GIS,manual,5.0,4.0,4.5,5.0,4.0
+LSN-5,Lushan 2022,R4,emergency command,generated,5.0,5.0,4.0,5.0,5.0
+LSN-5,Lushan 2022,R4,emergency command,manual,5.0,4.5,3.5,5.0,4.5
+LSN-5,Lushan 2022,R5,emergency command,generated,5.0,4.5,4.0,5.0,4.0
+LSN-5,Lushan 2022,R5,emergency command,manual,5.0,5.0,5.0,5.0,4.0
+LSN-6,Lushan 2022,R1,cartography/GIS,generated,4.5,3.5,3.5,3.5,4.0
+LSN-6,Lushan 2022,R1,cartography/GIS,manual,3.5,3.0,4.5,4.0,4.0
+LSN-6,Lushan 2022,R2,cartography/GIS,generated,4.0,4.0,4.0,3.5,4.5
+LSN-6,Lushan 2022,R2,cartography/GIS,manual,5.0,4.5,4.0,3.5,5.0
+LSN-6,Lushan 2022,R3,cartography/GIS,generated,4.0,3.0,3.5,4.0,4.0
+LSN-6,Lushan 2022,R3,cartography/GIS,manual,5.0,3.5,4.5,5.0,4.5
+LSN-6,Lushan 2022,R4,emergency command,generated,5.0,3.0,3.5,4.5,4.5
+LSN-6,Lushan 2022,R4,emergency command,manual,5.0,4.5,4.5,5.0,4.5
+LSN-6,Lushan 2022,R5,emergency command,generated,4.5,4.5,4.0,4.0,3.5
+LSN-6,Lushan 2022,R5,emergency command,manual,4.0,4.5,5.0,4.5,3.5

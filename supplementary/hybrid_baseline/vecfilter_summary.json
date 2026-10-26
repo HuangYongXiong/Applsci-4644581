@@ -1,0 +1,29 @@
+{
+  "scheme": "vecfilter",
+  "description": "PureVec retrieval + official-zone spatial filter (75 km disk around intensity-zone centroid) + same PROMPT_FUSION narrative stage as GraphRAG",
+  "run_date": "2026-10-05",
+  "device": "RTX 4060 Laptop 8GB, Ollama 0.34.4, qwen2.5:7b-instruct Q4_K_M",
+  "seeds": [42, 123, 2024, 7, 99],
+  "zone_filter_km": 75.0,
+  "metrics": {
+    "HR@1":   {"mean": 0.041,  "std": 0.0057, "population": "78 gradable"},
+    "HR@5":   {"mean": 0.1128, "std": 0.0107, "population": "78 gradable"},
+    "MRR":    {"mean": 0.0726, "std": 0.0023, "population": "78 gradable"},
+    "SR":     {"mean": 0.0077, "std": 0.0029, "population": "78 gradable"},
+    "LMR":    {"mean": 0.2949, "std": 0.0079, "population": "78 gradable"},
+    "LP":     {"mean": 0.2297, "std": 0.0046, "population": "78 gradable"},
+    "LF1":    {"mean": 0.237,  "std": 0.0058, "population": "78 gradable"},
+    "VCD":    {"mean": 17.3462,"std": 0.6888, "population": "94 in-window", "unit": "km"},
+    "IoU25":  {"mean": 0.396,  "std": 0.003,  "population": "94 in-window"},
+    "SA":     {"mean": 0.068,  "std": 0.008,  "population": "200 full",
+               "ci95": [0.054, 0.083],
+               "sa_in_window": 0.145, "sa_out_window": 0.0,
+               "correct_judgments": 68, "n_judgments": 1000}
+  },
+  "empty_evidence_queries_per_run": 106.8,
+  "annotation": {
+    "protocol": "same blind two-annotator + E3 adjudication as S6",
+    "kappa_new_rows": 0.55,
+    "kappa_overall_sheet": 0.53
+  }
+}

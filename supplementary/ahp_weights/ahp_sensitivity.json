@@ -1,0 +1,38 @@
+{
+  "base_weights": {
+    "sem": 0.52,
+    "time": 0.27,
+    "space": 0.21
+  },
+  "n_queries": 200,
+  "results": {
+    "pct5": {
+      "sem_plus": 0,
+      "sem_minus": 0,
+      "time_plus": 0,
+      "time_minus": 0,
+      "space_plus": 0,
+      "space_minus": 0,
+      "mean_change_rate": 0.0
+    },
+    "pct10": {
+      "sem_plus": 1,
+      "sem_minus": 2,
+      "time_plus": 1,
+      "time_minus": 2,
+      "space_plus": 1,
+      "space_minus": 3,
+      "mean_change_rate": 0.0083
+    },
+    "pct20": {
+      "sem_plus": 4,
+      "sem_minus": 7,
+      "time_plus": 3,
+      "time_minus": 6,
+      "space_plus": 5,
+      "space_minus": 9,
+      "mean_change_rate": 0.0367
+    }
+  },
+  "note": "SYNTHETIC demo; +/-5% matches shipped package (0.0)."
+}

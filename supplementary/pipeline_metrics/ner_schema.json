@@ -1,0 +1,36 @@
+{
+  "entity_types": [
+    "Event",
+    "Region",
+    "Resource",
+    "Road"
+  ],
+  "relation_enum": [
+    "WITHIN_AFFECTED",
+    "DEMAND",
+    "DAMAGED",
+    "SERVICE_COVERAGE",
+    "REACHABLE",
+    "NONE"
+  ],
+  "allowed_pairs": {
+    "Event-Region": [
+      "WITHIN_AFFECTED"
+    ],
+    "Event-Resource": [
+      "DEMAND",
+      "DAMAGED"
+    ],
+    "Region-Resource": [
+      "SERVICE_COVERAGE"
+    ],
+    "Resource-Road": [
+      "REACHABLE"
+    ],
+    "Region-Road": [
+      "REACHABLE"
+    ]
+  },
+  "ner_model": "No standalone NER; relation labelling by qwen2.5:7b-instruct Q4_K_M via PROMPT_RELATION; embeddings bge-base-zh-v1.5 768d L2",
+  "transition_note": "schema_role_restriction=true; Resource-Resource rejected"
+}

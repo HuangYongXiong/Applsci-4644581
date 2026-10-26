@@ -1,0 +1,3 @@
+﻿split,n,date_window,event_ids,exclusion_list
+dev_queries,17,1970-01-01 to 2021-12-31,ev_usp000g650; ev_usp00000dz; ev_usp0000hv8; ev_usp000069p; ev_usp0001bve; ev_usp0000j0p; ev_usp000032a; ev_usp0000hzv; ev_usp0000k7d; ev_usp0003u05; ev_usp0003uu0; ev_usp00075n1; ev_usp0007c7g; ev_us2000a5x1; ev_us7000i59t; ev_usb000gcdd; ev_usb000rzmg,"Excluded: ev_luding_2022, ev_lushan_2022, ev_jishishan_2023, ev_dingri_2025 and all reports/queries"
+test_queries,200,2022-06-01 to 2025-01-07,"ev_lushan_2022(51), ev_luding_2022(43), ev_jishishan_2023(50), ev_dingri_2025(56)",No dev event/report/query in test; disjoint by construction

@@ -1,0 +1,15 @@
+{
+  "description": "Path-length bias check for the revised Eq. (9) (reviewer R1-6: the summed path score favours higher-scoring, i.e. longer, paths). The revision defines Score(P) as the hop-averaged sum; this run re-derives the top-1 path for all 200 queries under the previous sum-only aggregation (path_score_normalize = true/false in pipeline config) and compares downstream metrics.",
+  "run_date": "2026-10-03",
+  "n_queries": 200,
+  "top1_path_changes": 9,
+  "top1_change_rate": 0.045,
+  "metrics_sum_only_vs_hop_averaged": {
+    "LMR_gradable": [0.791, 0.787],
+    "SR_gradable": [0.065, 0.066],
+    "SA_full": [0.429, 0.426],
+    "VCD_inwin_km": [21.2, 21.1],
+    "LF1_gradable": [0.252, 0.249]
+  },
+  "conclusion": "Hop-averaging changes the top-1 reasoning path for 9/200 queries (paths of different lengths whose per-hop quality ordering differs from the summed ordering); all metric means shift by <= 0.004 and no significance conclusion changes. The two aggregations agree because the candidate path set is dominated by short paths (median 3 hops): length alone does not inflate the summed score of the surviving, circuit-breaker-filtered candidates. The manuscript now reports the hop-averaged definition and discloses this sensitivity check."
+}

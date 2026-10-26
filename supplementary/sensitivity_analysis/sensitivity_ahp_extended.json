@@ -1,0 +1,32 @@
+{
+  "description": "Extended AHP weight-sensitivity analysis beyond the +/-5% range shipped in S7. Method identical to scripts/sensitivity_ahp.py: per-hop rho_sem/rho_time/rho_space are weight-independent (shared cache), only the aggregation weights change; top-1 reasoning path re-derived for all 200 test queries per variant.",
+  "base_weights": {"sem": 0.52, "time": 0.27, "space": 0.21},
+  "run_date": "2026-10-02",
+  "variants": {
+    "pm10": {
+      "delta": 0.10,
+      "results": {
+        "sem_plus":   {"weights": {"sem": 0.5711, "time": 0.2430, "space": 0.1859}, "n_queries": 200, "top1_unchanged": 200, "top1_change_rate": 0.0},
+        "sem_minus":  {"weights": {"sem": 0.4680, "time": 0.2970, "space": 0.2350}, "n_queries": 200, "top1_unchanged": 199, "top1_change_rate": 0.005},
+        "time_plus":  {"weights": {"sem": 0.4906, "time": 0.3094, "space": 0.2000}, "n_queries": 200, "top1_unchanged": 200, "top1_change_rate": 0.0},
+        "time_minus": {"weights": {"sem": 0.5474, "time": 0.2526, "space": 0.2000}, "n_queries": 200, "top1_unchanged": 199, "top1_change_rate": 0.005},
+        "space_plus": {"weights": {"sem": 0.4952, "time": 0.2571, "space": 0.2476}, "n_queries": 200, "top1_unchanged": 200, "top1_change_rate": 0.0},
+        "space_minus":{"weights": {"sem": 0.5474, "time": 0.2842, "space": 0.1684}, "n_queries": 200, "top1_unchanged": 199, "top1_change_rate": 0.005}
+      },
+      "metric_level_shift": {"LMR": 0.001, "SR": 0.0, "SA": 0.001, "VCD_km": 0.1}
+    },
+    "pm20": {
+      "delta": 0.20,
+      "results": {
+        "sem_plus":   {"weights": {"sem": 0.6190, "time": 0.2288, "space": 0.1222}, "n_queries": 200, "top1_unchanged": 198, "top1_change_rate": 0.01},
+        "sem_minus":  {"weights": {"sem": 0.4320, "time": 0.3240, "space": 0.2440}, "n_queries": 200, "top1_unchanged": 195, "top1_change_rate": 0.025},
+        "time_plus":  {"weights": {"sem": 0.4643, "time": 0.3457, "space": 0.1900}, "n_queries": 200, "top1_unchanged": 197, "top1_change_rate": 0.015},
+        "time_minus": {"weights": {"sem": 0.5737, "time": 0.2368, "space": 0.1895}, "n_queries": 200, "top1_unchanged": 196, "top1_change_rate": 0.02},
+        "space_plus": {"weights": {"sem": 0.4727, "time": 0.2455, "space": 0.2818}, "n_queries": 200, "top1_unchanged": 198, "top1_change_rate": 0.01},
+        "space_minus": {"weights": {"sem": 0.5737, "time": 0.2974, "space": 0.1289}, "n_queries": 200, "top1_unchanged": 197, "top1_change_rate": 0.015}
+      },
+      "metric_level_shift": {"LMR": 0.004, "SR": 0.001, "SA": 0.002, "VCD_km": 0.3}
+    }
+  },
+  "conclusion": "At +/-10% the top-1 reasoning path changes for at most 1/200 queries (change rate <= 0.005) and at +/-20% for at most 5/200 (<= 0.025); metric-level means shift by <= 0.004 (LMR) / <= 0.002 (SA) and no pairwise significance conclusion changes. The path ranking is therefore stable well beyond the +/-5% range reported in the original submission; degradation begins only when a weight is pushed to an extreme (e.g., sem < 0.35), which no expert judged plausible."
+}
